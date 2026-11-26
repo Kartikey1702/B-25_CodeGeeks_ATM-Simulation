@@ -70,9 +70,13 @@ int main()
     int pin1, attempts = 0;
 
 
+    
+
     printf("\n=================================\n");
     printf("     WELCOME TO K.A.P BANK ATM\n");
     printf("=================================\n\n");
+
+    
 
     
 
@@ -103,13 +107,35 @@ int main()
     {
         do
         {
-            printf("\nPress 1 to withdraw");
-            printf("\nPress 2 to deposit");
-            printf("\nPress 3 to check balance");
-            printf("\nPress 4 to update PIN");
-            printf("\nPress 5 to exit\n");
+            printf("\n");
+            printf("+==============================================================+\n");
+            printf("|                                                              |\n");
+            printf("|                        K.A.P BANK                            |\n");
+            printf("|                   YOUR TRUST, OUR PROMISE                    |\n");
+            printf("|                                                              |\n");
+            printf("+==============================================================+\n");
+            printf("|                         ATM SERVICES                         |\n");
+            printf("+--------------------------------------------------------------+\n");
+            printf("|                                                              |\n");
+            printf("|                 WELCOME TO K.A.P BANK ATM                    |\n");
+            printf("|                                                              |\n");
+            printf("|     +------------------------+  +------------------------+   |\n");
+            printf("|     | [1] WITHDRAW MONEY     |  | [2] DEPOSIT MONEY     |    |\n");
+            printf("|     +------------------------+  +------------------------+   |\n");
+            printf("|                                                              |\n");
+            printf("|     +------------------------+  +------------------------+   |\n");
+            printf("|     | [3] BALANCE ENQUIRY    |  | [4] CHANGE PIN        |    |\n");
+            printf("|     +------------------------+  +------------------------+   |\n");
+            printf("|                                                              |\n");
+            printf("|                 +------------------------+                   |\n");
+            printf("|                 | [5] EXIT               |                   |\n");
+            printf("|                 +------------------------+                   |\n");
+            printf("|                                                              |\n");
+            printf("+--------------------------------------------------------------+\n");
+            printf("|                     ENTER YOUR CHOICE                        |\n");
+            printf("+==============================================================+\n");
+            printf("                              ");
 
-            printf("Enter your choice: ");
             scanf("%d", &choice);
 
             switch(choice)
